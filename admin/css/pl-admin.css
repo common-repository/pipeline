@@ -1,0 +1,103 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#adminmenu #toplevel_page_pl-plugin div.wp-menu-image:before {
+  content: "";
+
+  margin-top: 10px;
+  margin-left: 3px;
+  background-image: url("../images/icon-16.png");
+  background-repeat: no-repeat;
+}
+.pipe-line-logo {
+    display: -webkit-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 25px;
+}
+.pipe-line-logo img.pipe-line-logo-img {
+    max-width: 280px;
+    height: auto;
+    margin-top: 6px;
+}
+.pipe-line-logo h1.pipe-line-heading {
+    margin: 7px 0 0 14px;
+}
+.collapse.show {
+    display: block !important;
+}
+
+/* Settings page */
+#repeater div#containerElement {
+    padding-bottom: 20px;
+}
+.pipeline-form div#repeater {
+    padding-top: 20px;
+}
+#containerElement div#structure {
+    padding: 10px 0px;
+}
+#repeater table {
+    padding: 10px 0px;
+}
+.pipeline-form div#repeater table th{
+    text-align: left;
+    width : 55%;
+    font-size : 14px;
+}
+#repeater p {
+    font-weight: bold;
+    font-style: italic;
+}
+div#structure {
+    padding: 10px 0px;
+}
+
+
+
+
+form:not(#template) { float: left; width: 100%; }
+.pipeline_integration_form { margin-top: 15px; float: left; width: 100%; }
+.pipeline_integration_form .add_on_card { float: left; width: 31.33%; background: #ffffff; margin-right: 2%; border-radius: 5px; box-shadow: -1px 0 4px 2px #c7c7c7;margin-bottom: 2%;}
+.pipeline_integration_form .add_on_card .addon_header { text-align: center; padding: 10px; border-bottom: 1px solid #f1f1f1; font-weight: 700; color: #2c3e50!important; font-family: Avenir,Helvetica,Arial,sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; }
+.pipeline_integration_form .add_on_card .addon_body { padding: 15px; }
+.pipeline_integration_form .add_on_card .addon_body p:nth-of-type(1) { text-align: center; }
+.pipeline_integration_form .add_on_card .addon_body p img { width: auto; max-height: 30px; }
+.pipeline_integration_form .add_on_card .addon_body p:nth-of-type(2) { text-align: left; min-height: 75px; max-height: 75px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;color: #2c3e50!important; font-weight: 400; font-family: Avenir,Helvetica,Arial,sans-serif; -webkit-font-smoothing: antialiased; }
+.pipeline_integration_form .add_on_card .addon_footer { border-top: 1px solid #e2dfdf; padding: 10px 15px; }
+.pipeline_integration_form .add_on_card .addon_footer label { position: relative; display: inline-block; width: 40px; height: 20px; margin-bottom: 10px;}
+.pipeline_integration_form .add_on_card .addon_footer label input { opacity: 0; width: 0; height: 0; }
+.slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; -webkit-transition: .4s; transition: .4s; }
+.slider:before { position: absolute; content: ""; height: 16px; width: 16px; left: 2px; bottom: 2px; background-color: white; -webkit-transition: .4s; transition: .4s; }
+input:checked + .slider { background-color: #13ce66; }
+input:focus + .slider { box-shadow: 0 0 1px #13ce66; }
+input:checked + .slider:before { -webkit-transform: translateX(20px); -ms-transform: translateX(20px); transform: translateX(20px); }
+/* Rounded sliders */
+.slider.round { border-radius: 34px; }
+.slider.round:before { border-radius: 50%; }
+.pipeline_integration_form .add_on_card .addon_footer .el-switch { float: left; margin-right: 5px; } 
+form input[type="submit"] { background-color: #37CA37; border-color: #37CA37; color: #FFFFFF; margin-top: 20px; font-weight: 400; border: 1px solid transparent; padding: 0.375rem 0.75rem; font-size: 1rem; line-height: 1.5; border-radius: 0.25rem; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; font-family: Avenir,Helvetica,Arial,sans-serif; }
+.pipeline-form div#repeater input#createElement { background-color: #37CA37; border-color: #37CA37; color: #FFFFFF; margin-top: 20px; font-weight: 400; border: 1px solid transparent; padding: 0.375rem 0.75rem; font-size: 1rem; line-height: 1.5; border-radius: 0.25rem; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; font-family: Avenir,Helvetica,Arial,sans-serif; box-shadow: none; text-transform: capitalize; }
+form input[type="submit"]:focus {box-shadow: 0 0 0 0.2rem rgb(130 138 145 / 50%);}
+form input[type="submit"]:hover {cursor:pointer;}
+.form_header_sec h2 { font-size: 2.5rem; font-weight: 500; line-height: 1.2; margin-top: 2px; margin-bottom: 0; }
+form label.heading { margin-top: 10px; float: left; width: 100%; margin-bottom: 7px; color: #2c3e50!important; font-weight: 400; font-family: Avenir,Helvetica,Arial,sans-serif; -webkit-font-smoothing: antialiased; }
+form.pipeline-form .pipe-line-logo h1.pipe-line-heading { font-size: 2.5rem; font-weight: 500; line-height: 1.2; }
+table tbody tr th { font-family: Avenir,Helvetica,Arial,sans-serif; -webkit-font-smoothing: antialiased; color: #2c3e50 !important; font-size: 16px !important; }
+#repeater p { color: #2c3e50!important; font-weight: 400; font-family: Avenir,Helvetica,Arial,sans-serif; -webkit-font-smoothing: antialiased; font-style: normal; }
+form.pipeline-form input.btn.btn-primary { background-color: #37CA37; border-color: #37CA37; color: #FFFFFF; margin-top: 20px; font-weight: 400; border: 1px solid transparent; padding: 0.375rem 0.75rem; font-size: 1rem; line-height: 1.5; border-radius: 0.25rem; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; font-family: Avenir,Helvetica,Arial,sans-serif; box-shadow: none; text-transform: capitalize; }
+form.pipeline-form input.btn.btn-primary:focus {box-shadow: 0 0 0 0.2rem rgb(130 138 145 / 50%);}
+form.pipeline-form input.btn.btn-primary:hover {cursor:pointer;}
+.vddl-draggable { z-index: 9; }
+
+
+.pipe-line-settings .field-first.form-group, .pipe-line-settings .field-last.form-group { padding-top: 30px; }
+body form.el-form.form-editor-elements .vddl-list.panel__body--list i.popup-search-element {
+    bottom: 3px !important;
+}
+body div#js-editor-inserter--popup {
+    z-index: 99;
+}
+
